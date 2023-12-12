@@ -1,0 +1,39 @@
+body {
+    background-color: #161b22;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.startup {
+    text-align: center;
+    margin: 20%;
+}
+
+.colored-text {
+    color: #00f0ff;
+}
+
+.startup-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.startup-nav a{
+    color: #00f0ff;
+    text-decoration: none;
+}
+
+.startup-nav a:hover {
+    cursor: crosshair;
+    color: #772289;
+}
